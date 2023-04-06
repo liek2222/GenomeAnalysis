@@ -1,1 +1,4 @@
 #The structure of the files used in this project
+01preprocessing: 
+02genomeassembly:
+#slurm-7593587.out contains information about the job submitted to canu (raw pacbio reads)
