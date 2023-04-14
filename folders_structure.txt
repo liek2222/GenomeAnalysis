@@ -5,6 +5,6 @@
 #slurm-7654184.out created for canu_scaffold_10. This run resulted in TIMEOUT after 17 hours.
 #slurm-7654185.out created for canu_scaffold_11. This run resulted in TIMEOUT after 17 hours.
 
-#slurm-7656011.out created for canu_scaffold_06_C. This is the continued assembly because of the previous timeout.
+#slurm-7656101.out created for canu_scaffold_06_C. This is the continued assembly because of the previous timeout.
 #slurm-7656099.out created for canu_scaffold_10_C. This is the continued assembly because of the previous timeout.
 #slurm-7656101.out created for canu_scaffold_11_C. This is the continued assembly because of the previous timeout.
