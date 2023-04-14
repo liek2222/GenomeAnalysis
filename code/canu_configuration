@@ -1,8 +1,0 @@
-# Canu configuration file for pacbio data
-# Generated on 2023-04-06
-
-canu -p canu_primary_fasta -d canu_pacbio_primary genomeSize=800m \
-  -pacbio-raw /home/liek2222/GAproject/4_Tean_Teh_2017/pacbio_data/SRR6037732_scaffold_06.fq.gz \
-  -pacbio-raw /home/liek2222/GAproject/4_Tean_Teh_2017/pacbio_data/SRR6037732_scaffold_10.fq.gz \
-  -pacbio-raw /home/liek2222/GAproject/4_Tean_Teh_2017/pacbio_data/SRR6037732_scaffold_11.fq.gz
-
