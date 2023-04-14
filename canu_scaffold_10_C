@@ -16,5 +16,6 @@ module load canu/1.8
 
 # Commands
 canu -p canu_primary_fasta -d /proj/genomeanalysis2023/nobackup/work/liek_canu/canu_pacbio_10 genomeSize=37m -maxThreads=4 useGrid=false \
-  -pacbio-raw /home/liek2222/GAproject/4_Tean_Teh_2017/pacbio_data/SRR6037732_scaffold_10.fq.gz 
+  -pacbio-raw /home/liek2222/GAproject/4_Tean_Teh_2017/pacbio_data/SRR6037732_scaffold_10.fq.gz
+  -pacbio-corrected /proj/genomeanalysis2023/nobackup/work/liek_canu/canu_pacbio_10/canu_primary_fasta.correctedReads.fasta.gz 
 
