@@ -1,0 +1,20 @@
+CODE
+/home/liek2222/GAproject/code
+#PacBio, Genome assembly and correction
+The input files for canu are named as follows:
+canu_scaffold_06_2: batschscript for canu, scaffold 06
+canu_scaffold_10_2: batschscript for canu, scaffold 10
+canu_scaffold_11_2: batschscript for canu, scaffold 11
+
+#Assembly correction using illumina reads
+pilon_scaffold_06.sh: batchscript for assembly correction using pilon, scaffold 6
+pilon_scaffold_11.sh: batchscript for assembly correction using pilon, scaffold 11
+
+#Quality control of genome assembly
+quast_primary.sh: the batchscript for running quast on all 3 scaffolds (primary canu)
+quast_after_correction_06_11.sh: the batchscript for running quast on scaffold 06 and 11 after correction with illumina reads
+quast_after_masking_06.sh: batchscript for running quast on masked genome
+
+#Repeats modeling and masking
+repeatmod_06.sh: batchscript for RepeatModeler to create a repeat library for scaffold 6
+repMas_06.sh: batchscript for running RepeatMasking (softmasking) using the repeats-library generated for Durio zibethinus.
