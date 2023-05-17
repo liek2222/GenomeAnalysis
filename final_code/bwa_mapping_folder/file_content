@@ -1,0 +1,7 @@
+This folder contains scripts for bwa 
+
+bwa_mapping_scaffold_06.sh: The trimmed illumina reads are mapped to the generated reference genome, scaffold 06
+bwa_mapping_scaffold_11.sh The trimmed illumina reads are mapped to the generated reference genome, scaffold 11
+
+bwa_06_conv.sh: script for sorting and indexing the output .sam file, scaffold 6
+bwa_11_conv.sh: script for sorting and indexing the output .sam file, scaffold 11

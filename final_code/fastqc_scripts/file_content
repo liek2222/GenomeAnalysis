@@ -1,0 +1,5 @@
+This folder contains the scripts used for quality control of Illumina reads.
+
+fastQC_raw_P.sh: wuality control of the raw Illumina reads
+fast_QCtrimmed_P.sh: quality control of the trimmed, paired reads that were used for further analysis
+fastQC_trimmed_U.sh: quality control script for the sequences that did not pass the trimming 

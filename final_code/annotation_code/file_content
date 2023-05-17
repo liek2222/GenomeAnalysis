@@ -1,0 +1,5 @@
+This folder contains the script files for genome annotations.
+STAR_soft.sh: script file for mapping using STAR
+BRAKER_06_sep.sh: script file for running BRAKER. One directory is created for each RNA-file (SRR). 
+H_seq.sh: script for read counting using Htseq
+Eggnog.sh: script for running eggnog on the genes predicted by braker.

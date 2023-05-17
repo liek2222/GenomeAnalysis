@@ -1,0 +1,7 @@
+This folder contains files needed for trimmomatic, used in pre-processing of Illumina reads.
+
+#Script files
+trimm_script_06_P.sh: batchscript for the illumina reads for scaffold 06
+trimm_script_10_P.sh: batchscript for the illumina reads for scaffold 10 
+trimm_script_11_P.sh: batchscript for the illumina reads for scaffold 11 
+TruSeq3-PE.fa: adapter sequence file
